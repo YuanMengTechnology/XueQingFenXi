@@ -1,9 +1,10 @@
 package Entity;
 
+/*培养方案表*/
 public class train_plan {
     private int train_plan_id;
-    private int major_id;
-    private int grade;
+    private int major_id;//适用专业fk
+    private int grade;//适用年级
 
     public int getTrain_plan_id() {
         return train_plan_id;

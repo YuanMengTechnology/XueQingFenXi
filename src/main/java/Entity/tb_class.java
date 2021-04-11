@@ -2,10 +2,11 @@ package Entity;
 
 import java.text.DecimalFormat;
 
+/*班级表*/
 public class tb_class {
     private int id;
-    private String class_id;
-    private int grade;
+    private String class_id;//班级
+    private int grade;//年级
 
     public int getId() {
         return id;
@@ -20,16 +21,12 @@ public class tb_class {
     }
 
     public void setClass_id(String class_id) {
-        if (class_id.length()>20){
-            this.class_id=class_id.substring(0,20);
-            return;
-        }
         this.class_id = class_id;
     }
 
     public void setClass_id(int class_id) {
         if ((class_id+"").length()>20){
-            this.class_id =(class_id+"").substring(0,20);
+            this.class_id =(class_id+"").substring(0,20);//VARCHAR(20)
             return;
         }
         this.class_id =class_id+"";

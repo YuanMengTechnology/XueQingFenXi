@@ -1,8 +1,9 @@
 package Entity;
 
+/*培养方案课程表*/
 public class train_plan_course {
-    private int plan_id;
-    private String course_code;
+    private int plan_id;//pk,fk
+    private String course_code;//课程代码fk
     private String tp_term;
 
     public int getPlan_id() {

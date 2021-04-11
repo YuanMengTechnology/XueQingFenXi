@@ -2,10 +2,10 @@ package Entity;
 
 public class student {
     private int student_id;
-    private String stu_id;
-    private String stu_name;
-    private int major_id;
-    private String class_id;
+    private String stu_id;//学号
+    private String stu_name;//姓名
+    private int major_id;//专业fk
+    private String class_id;//班级fk
 
     public int getStudent_id() {
         return student_id;

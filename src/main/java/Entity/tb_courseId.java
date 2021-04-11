@@ -1,9 +1,10 @@
 package Entity;
 
+/*课号表*/
 public class tb_courseId {
     private int courseId_id;
-    private String course_id;
-    private String course_code;
+    private String course_id;//课号
+    private String course_code;//课程代码fk
     private String course_term;
 
     public int getCourseId_id() {
