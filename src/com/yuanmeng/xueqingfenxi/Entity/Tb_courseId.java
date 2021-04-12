@@ -1,7 +1,7 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 /*课号表*/
-public class tb_courseId {
+public class Tb_courseId {
     private int courseId_id;
     private String course_id;//课号
     private String course_code;//课程代码fk

@@ -1,6 +1,6 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
-public class student {
+public class Student {
     private int student_id;
     private String stu_id;//学号
     private String stu_name;//姓名

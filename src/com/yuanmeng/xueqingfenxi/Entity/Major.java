@@ -1,7 +1,7 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 /*专业表*/
-public class major {
+public class Major {
     private int major_id;
     private String major_name;//专业名称
 

@@ -1,9 +1,9 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 import java.text.DecimalFormat;
 
 /*班级表*/
-public class tb_class {
+public class Tb_class {
     private int id;
     private String class_id;//班级
     private int grade;//年级

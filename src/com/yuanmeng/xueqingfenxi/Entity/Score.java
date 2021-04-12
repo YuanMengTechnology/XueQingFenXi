@@ -1,7 +1,7 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 /*成绩表*/
-public class score {
+public class Score {
     private int score_id;
     private String stu_id;//对应学生学号fk
     private String course_id;//对应课号fk

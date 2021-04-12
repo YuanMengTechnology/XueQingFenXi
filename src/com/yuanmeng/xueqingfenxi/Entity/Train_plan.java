@@ -1,7 +1,7 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 /*培养方案表*/
-public class train_plan {
+public class Train_plan {
     private int train_plan_id;
     private int major_id;//适用专业fk
     private int grade;//适用年级

@@ -1,9 +1,9 @@
-package Entity;
+package com.yuanmeng.xueqingfenxi.Entity;
 
 import java.math.BigDecimal;
 
 /*课程代码表*/
-public class tb_course_code {
+public class Tb_course_code {
     private int course_code_id;
     private String course_code;//课程代码
     private String course_name;//课程名称
