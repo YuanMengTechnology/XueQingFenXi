@@ -1,4 +1,6 @@
-package entity;
+package javaBean;
+
+import java.util.List;
 
 public class Student {
     private int pk_student_id;
@@ -6,6 +8,10 @@ public class Student {
     private String stu_name;
     private int major_id;
     private String class_id;
+    private Classes classes;
+    private List<CourseId> courseIds;
+    private Major major;
+    private List<Score> scores;
 
     public int getPk_student_id() {
         return pk_student_id;

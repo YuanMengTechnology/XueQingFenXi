@@ -1,9 +1,12 @@
-package entity;
+package javaBean;
 
-public class Train_plan_course {
+import java.util.List;
+
+public class TrainPlanCourse {
     private int plan_id;
     private String course_code;
     private String tp_term;
+    private List<TrainPlan> trainPlans;
 
     public int getPlan_id() {
         return plan_id;

@@ -1,10 +1,15 @@
-package entity;
+package javaBean;
 
-public class Tb_courseId {
+import java.util.List;
+
+public class CourseId {
     private int pk_courseId_id;
     private String course_id;
     private String course_code;
     private String course_term;
+    private List<Student> students;
+    private CourseCode courseCode;
+    private Score score;
 
     public int getPk_courseId_id() {
         return pk_courseId_id;

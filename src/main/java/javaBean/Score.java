@@ -1,4 +1,4 @@
-package entity;
+package javaBean;
 
 public class Score {
     private int pk_score_id;
@@ -7,6 +7,8 @@ public class Score {
     private String score;
     private String test_type;
     private String grade_type;
+    private Student student;
+    private CourseId courseId;
 
     public int getPk_score_id() {
         return pk_score_id;

@@ -1,9 +1,13 @@
-package entity;
+package javaBean;
+
+import java.util.List;
 
 /*专业表*/
 public class Major {
     private int major_id;
     private String major_name;//专业名称
+    private List<Student> students;
+    private List<TrainPlan> trainPlans;
 
     public int getMajor_id() {
         return major_id;

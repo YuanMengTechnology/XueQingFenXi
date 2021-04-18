@@ -1,9 +1,12 @@
-package entity;
+package javaBean;
 
-public class Tb_class {
+import java.util.List;
+
+public class Classes {
     private int pk_id;
     private String class_id;
     private int grade;
+    private List<Student> students;
 
     public int getPk_id() {
         return pk_id;
